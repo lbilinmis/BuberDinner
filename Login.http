@@ -1,0 +1,9 @@
+@host=https://localhost:7230/
+
+POST {{host}}/auth/login
+Content-Type:application/json
+
+{
+"Email":"lbilinmis@gelisim.edu.tr",
+"Password":"lbilinmis"
+}

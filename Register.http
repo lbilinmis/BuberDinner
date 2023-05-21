@@ -1,0 +1,11 @@
+@host=https://localhost:7230/
+
+POST {{host}}/auth/register
+Content-Type:application/json
+
+{
+  "FirstName":"Levent",
+  "LastName":"BÝLÝNMÝÞ",
+"Email":"lbilinmis@gelisim.edu.tr",
+"Password":"lbilinmis"
+}
